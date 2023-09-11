@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .outer-container {
+    border: 10px solid black;
+    padding: 15px;
+    width: 850px;
+    height: 650px;
+    background-color: white;
+  }
+  
+  .certificate-container {
+    border: 3px double black;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    height: calc(100% - 6px);
+    z-index: 1;
+
+    /* background-image: url('IISER-Mohali_Logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.2;   */
+
+  }
+
+  .watermark {
+    /* background-color: aqua; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('IISER-Mohali_Logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;  /* Adjust size */
+    opacity: 0.1; /* Reducing opacity */
+    z-index: 0;  /* Place it behind the text */
+  }
+  
+  
+  .institution {
+    
+    font-size: 30px;
+    margin: 0;  /* Resetting horizontal margins */
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Francois One', sans-serif;
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  #logo {
+    width: 107px;
+    height: auto;
+  }
+  
+  .certificate-title {
+    font-size: 40px;  /* New big title */
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .certify-text {
+    font-size: 24px;  /* Increased size */
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Courgette', cursive;
+    padding: 4px;
+  }
+  
+  .name {
+    font-size: 30px;  /* Increased size */
+    font-weight: bold;
+  }
+  
+  .date {
+    position: absolute;
+    bottom: 100px;  /* Moved up */
+    left: 20px;
+    font-size: 24px;  /* Increased size */
+  }
+  
+  .signatures {
+  
+    position: absolute;
+    bottom: 24px;
+    width: 95%;  /* Extend to full width */
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;  /* Resetting horizontal margins */
+  }
+  
+  .signature p {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .signature-image {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto -25px;
+  }
+
+  hr {
+    margin: 4px;  /* Resetting horizontal margins */
+  }
