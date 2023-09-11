@@ -23,14 +23,7 @@ body {
     position: relative;
     height: calc(100% - 6px);
     z-index: 1;
-
-    /* background-image: url('IISER-Mohali_Logo.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  opacity: 0.2;   */
-
-  }
+}
 
   .watermark {
     /* background-color: aqua; */
