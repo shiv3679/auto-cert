@@ -1,0 +1,73 @@
+
+
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{fontspec}
+\usepackage{fancybox}
+
+\newfontfamily{\bebasneue}{BebasNeue-Regular.ttf}
+\newfontfamily{\courgette}{Courgette-Regular.ttf}
+\newfontfamily{\francois}{FrancoisOne-Regular.ttf}
+
+\begin{document}
+\pagestyle{empty}
+
+% Solid border
+\doublebox{
+\begin{minipage}{\dimexpr\textwidth-2\fboxrule-2\fboxsep}
+\begin{center}
+
+\vspace{1cm}  % Margin at the top
+
+% Institution name
+\parbox[c]{\textwidth}{\centering \baselineskip=1.5em \bebasneue \LARGE \textbf{INDIAN INSTITUTE OF SCIENCE EDUCATION AND \\ RESEARCH, MOHALI}}
+
+
+\hrulefill \\
+\vspace{1cm}
+
+% Logo at the top
+\includegraphics[width=0.2\textwidth]{assets/IISER-Mohali_Logo.png}
+\vspace{1cm}
+
+% Certificate title
+{\bebasneue \Huge \textbf{CERTIFICATE}} \\
+\vspace{1cm}
+
+% Certify text
+{\courgette \Large This certificate is proudly presented to} \\
+\vspace{1cm}
+
+% Name placeholder
+{\bebasneue \Huge \textbf{{John Doe}}} \\
+\vspace{1cm}
+
+% Additional text
+{\courgette \normalsize in recognition of their invaluable service as a Volunteer. Their significant contributions were instrumental to the success of the 16th Foundation Day celebrations at the IISER, Mohali.} \\
+\vspace{1.5cm}
+
+% Signatures
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=0.2\textwidth]{assets/Oprah-Winfrey-Signature-1.png} \\
+  \hrulefill \\
+  {\bebasneue \small Dean IRO}
+\end{minipage}
+\hfill
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=0.2\textwidth]{assets/Oprah-Winfrey-Signature-1.png} \\
+  \hrulefill \\
+  {\bebasneue \small Faculty Coordinator}
+\end{minipage}
+
+\vspace{1cm}  % Margin after the signatures
+
+\end{center}
+\end{minipage}
+}
+
+\end{document}
+
+

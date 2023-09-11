@@ -1,3 +1,28 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('Bebas_Neue/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Comic Neue';
+  src: url('Comic_Neue/ComicNeue-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('Dancing_Script/DancingScript-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Courgette';
+  src: url('Courgette/Courgette-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Francois One';
+  src: url('Francois_One/FrancoisOne-Regular.ttf');
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
